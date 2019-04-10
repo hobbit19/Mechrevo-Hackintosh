@@ -1,0 +1,124 @@
+369:609  0:963  Found UEFI Acpi 2.0 RSDP at 7C7B9000
+369:609  0:000  Saving ACPI tables from RSDP 7C7B9000 to EFI\CLOVER\ACPI\origin ...
+369:609  0:000   7C7B9000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+369:609  0:000    (Xsdt: 7C7B90B0, Rsdt: 7C7B9028)
+369:609  0:000    7C7B90B0: 'XSDT', 'TONGFANG', Rev: 1, Len: 228
+369:609  0:000    7C7B9028: 'RSDT', 'TONGFANG', Rev: 1, Len: 132
+369:609  0:000    Tables in Xsdt: 24
+369:609  0:000    0. 7C7DCF18: 'FACP', 'TONGFANG', Rev: 6, Len: 276
+369:609  0:000        (Dsdt: 7C7B9228, Facs: 7CFC6C40, XDsdt: 7C7B9228, XFacs: 0)
+369:609  0:000        7C7B9228: 'DSDT', 'TONGFANG', Rev: 2, Len: 146670
+369:611  0:002        7CFC6C40: 'FACS', Ver: 2, Len: 64
+369:611  0:000    1. 7C7DD030: 'APIC', 'TONGFANG', Rev: 3, Len: 132
+369:611  0:000    2. 7C7DD0B8: 'FPDT', 'TONGFANG', Rev: 1, Len: 68
+369:611  0:000    3. 7C7DD100: 'MCFG', 'TONGFANG', Rev: 1, Len: 60
+369:611  0:000    4. 7C7DD140: 'SSDT', 'SataTabl', Rev: 1, Len: 754
+369:611  0:000    5. 7C7DD438: 'FIDT', 'TONGFANG', Rev: 1, Len: 156
+369:611  0:000    6. 7C7DD4D8: 'MSDM', 'TONGFANG', Rev: 3, Len: 85
+369:611  0:000    7. 7C7DD530: 'SLIC', 'TONGFANG', Rev: 1, Len: 374
+369:611  0:000    8. 7C7DD6A8: 'SSDT', 'SaSsdt ', Rev: 2, Len: 12633
+369:611  0:000    9. 7C7E0808: 'SSDT', 'PegSsdt', Rev: 2, Len: 10419
+369:611  0:000    10. 7C7E30C0: 'HPET', 'KBL', Rev: 1, Len: 56
+369:611  0:000    11. 7C7E30F8: 'SSDT', 'xh_rvp11', Rev: 2, Len: 2436
+369:611  0:000    12. 7C7E3A80: 'UEFI', 'EDK2    ', Rev: 1, Len: 66
+369:611  0:000    13. 7C7E3AC8: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3806
+369:611  0:000    14. 7C7E49A8: 'LPIT', 'KBL', Rev: 1, Len: 148
+369:611  0:000    15. 7C7E4A40: 'WSMT', 'KBL', Rev: 1, Len: 40
+369:611  0:000    16. 7C7E4A68: 'SSDT', 'sensrhub', Rev: 2, Len: 671
+369:611  0:000    17. 7C7E4D08: 'DBGP', '', Rev: 1, Len: 52
+369:611  0:000    18. 7C7E4D40: 'DBG2', '', Rev: 0, Len: 84
+369:611  0:000    19. 7C7E4D98: 'SSDT', 'SgPeg', Rev: 2, Len: 174
+369:611  0:000    20. 7C7E4E48: 'DMAR', 'KBL ', Rev: 1, Len: 168
+369:611  0:000    21. 7C7E4EF0: 'TPM2', 'Tpm2Tabl', Rev: 3, Len: 52
+369:611  0:000    22. 7C7E4F28: 'BGRT', 'TONGFANG', Rev: 1, Len: 56
+369:611  0:000    23. 7C7E4F60: 'SSDT', 'OptTabl', Rev: 1, Len: 7486
+369:611  0:000    Tables in Rsdt: 24
+369:611  0:000    0. 7C7B91A0: 'FACP', 'TONGFANG', Rev: 2, Len: 132
+369:611  0:000        (Dsdt: 7C7B9228, Facs: 7CFC6C00)
+369:611  0:000        7C7B9228: 'DSDT', 'TONGFANG', Rev: 2, Len: 146670
+369:613  0:002        7CFC6C00: 'FACS', Ver: 0, Len: 64
+369:613  0:000    1. 7C7DD030: 'APIC', 'TONGFANG', Rev: 3, Len: 132
+369:613  0:000    2. 7C7DD0B8: 'FPDT', 'TONGFANG', Rev: 1, Len: 68
+369:613  0:000    3. 7C7DD100: 'MCFG', 'TONGFANG', Rev: 1, Len: 60
+369:613  0:000    4. 7C7DD140: 'SSDT', 'SataTabl', Rev: 1, Len: 754
+369:613  0:000    5. 7C7DD438: 'FIDT', 'TONGFANG', Rev: 1, Len: 156
+369:613  0:000    6. 7C7DD4D8: 'MSDM', 'TONGFANG', Rev: 3, Len: 85
+369:613  0:000    7. 7C7DD530: 'SLIC', 'TONGFANG', Rev: 1, Len: 374
+369:613  0:000    8. 7C7DD6A8: 'SSDT', 'SaSsdt ', Rev: 2, Len: 12633
+369:613  0:000    9. 7C7E0808: 'SSDT', 'PegSsdt', Rev: 2, Len: 10419
+369:613  0:000    10. 7C7E30C0: 'HPET', 'KBL', Rev: 1, Len: 56
+369:613  0:000    11. 7C7E30F8: 'SSDT', 'xh_rvp11', Rev: 2, Len: 2436
+369:613  0:000    12. 7C7E3A80: 'UEFI', 'EDK2    ', Rev: 1, Len: 66
+369:613  0:000    13. 7C7E3AC8: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3806
+369:613  0:000    14. 7C7E49A8: 'LPIT', 'KBL', Rev: 1, Len: 148
+369:613  0:000    15. 7C7E4A40: 'WSMT', 'KBL', Rev: 1, Len: 40
+369:613  0:000    16. 7C7E4A68: 'SSDT', 'sensrhub', Rev: 2, Len: 671
+369:613  0:000    17. 7C7E4D08: 'DBGP', '', Rev: 1, Len: 52
+369:613  0:000    18. 7C7E4D40: 'DBG2', '', Rev: 0, Len: 84
+369:613  0:000    19. 7C7E4D98: 'SSDT', 'SgPeg', Rev: 2, Len: 174
+369:613  0:000    20. 7C7E4E48: 'DMAR', 'KBL ', Rev: 1, Len: 168
+369:613  0:000    21. 7C7E4EF0: 'TPM2', 'Tpm2Tabl', Rev: 3, Len: 52
+369:613  0:000    22. 7C7E4F28: 'BGRT', 'TONGFANG', Rev: 1, Len: 56
+369:613  0:000    23. 7C7E4F60: 'SSDT', 'OptTabl', Rev: 1, Len: 7486
+369:613  0:000  Found UEFI Acpi 1.0 RSDP at 7C7B9000
+369:613  0:000  Printing ACPI tables from RSDP 7C7B9000 ...
+369:613  0:000   7C7B9000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+369:613  0:000    (Xsdt: 7C7B90B0, Rsdt: 7C7B9028)
+369:613  0:000    7C7B90B0: 'XSDT', 'TONGFANG', Rev: 1, Len: 228
+369:613  0:000    7C7B9028: 'RSDT', 'TONGFANG', Rev: 1, Len: 132
+369:613  0:000    Tables in Xsdt: 24
+369:613  0:000    0. 7C7DCF18: 'FACP', 'TONGFANG', Rev: 6, Len: 276
+369:613  0:000        (Dsdt: 7C7B9228, Facs: 7CFC6C40, XDsdt: 7C7B9228, XFacs: 0)
+369:613  0:000        7C7B9228: 'DSDT', 'TONGFANG', Rev: 2, Len: 146670
+369:615  0:002        7CFC6C40: 'FACS', Ver: 2, Len: 64
+369:615  0:000    1. 7C7DD030: 'APIC', 'TONGFANG', Rev: 3, Len: 132
+369:615  0:000    2. 7C7DD0B8: 'FPDT', 'TONGFANG', Rev: 1, Len: 68
+369:615  0:000    3. 7C7DD100: 'MCFG', 'TONGFANG', Rev: 1, Len: 60
+369:615  0:000    4. 7C7DD140: 'SSDT', 'SataTabl', Rev: 1, Len: 754
+369:615  0:000    5. 7C7DD438: 'FIDT', 'TONGFANG', Rev: 1, Len: 156
+369:615  0:000    6. 7C7DD4D8: 'MSDM', 'TONGFANG', Rev: 3, Len: 85
+369:615  0:000    7. 7C7DD530: 'SLIC', 'TONGFANG', Rev: 1, Len: 374
+369:615  0:000    8. 7C7DD6A8: 'SSDT', 'SaSsdt ', Rev: 2, Len: 12633
+369:615  0:000    9. 7C7E0808: 'SSDT', 'PegSsdt', Rev: 2, Len: 10419
+369:615  0:000    10. 7C7E30C0: 'HPET', 'KBL', Rev: 1, Len: 56
+369:615  0:000    11. 7C7E30F8: 'SSDT', 'xh_rvp11', Rev: 2, Len: 2436
+369:615  0:000    12. 7C7E3A80: 'UEFI', 'EDK2    ', Rev: 1, Len: 66
+369:615  0:000    13. 7C7E3AC8: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3806
+369:615  0:000    14. 7C7E49A8: 'LPIT', 'KBL', Rev: 1, Len: 148
+369:615  0:000    15. 7C7E4A40: 'WSMT', 'KBL', Rev: 1, Len: 40
+369:615  0:000    16. 7C7E4A68: 'SSDT', 'sensrhub', Rev: 2, Len: 671
+369:615  0:000    17. 7C7E4D08: 'DBGP', '', Rev: 1, Len: 52
+369:615  0:000    18. 7C7E4D40: 'DBG2', '', Rev: 0, Len: 84
+369:615  0:000    19. 7C7E4D98: 'SSDT', 'SgPeg', Rev: 2, Len: 174
+369:615  0:000    20. 7C7E4E48: 'DMAR', 'KBL ', Rev: 1, Len: 168
+369:615  0:000    21. 7C7E4EF0: 'TPM2', 'Tpm2Tabl', Rev: 3, Len: 52
+369:615  0:000    22. 7C7E4F28: 'BGRT', 'TONGFANG', Rev: 1, Len: 56
+369:615  0:000    23. 7C7E4F60: 'SSDT', 'OptTabl', Rev: 1, Len: 7486
+369:615  0:000    Tables in Rsdt: 24
+369:615  0:000    0. 7C7B91A0: 'FACP', 'TONGFANG', Rev: 2, Len: 132
+369:615  0:000        (Dsdt: 7C7B9228, Facs: 7CFC6C00)
+369:615  0:000        7C7B9228: 'DSDT', 'TONGFANG', Rev: 2, Len: 146670
+369:617  0:002        7CFC6C00: 'FACS', Ver: 0, Len: 64
+369:617  0:000    1. 7C7DD030: 'APIC', 'TONGFANG', Rev: 3, Len: 132
+369:617  0:000    2. 7C7DD0B8: 'FPDT', 'TONGFANG', Rev: 1, Len: 68
+369:617  0:000    3. 7C7DD100: 'MCFG', 'TONGFANG', Rev: 1, Len: 60
+369:617  0:000    4. 7C7DD140: 'SSDT', 'SataTabl', Rev: 1, Len: 754
+369:617  0:000    5. 7C7DD438: 'FIDT', 'TONGFANG', Rev: 1, Len: 156
+369:617  0:000    6. 7C7DD4D8: 'MSDM', 'TONGFANG', Rev: 3, Len: 85
+369:617  0:000    7. 7C7DD530: 'SLIC', 'TONGFANG', Rev: 1, Len: 374
+369:617  0:000    8. 7C7DD6A8: 'SSDT', 'SaSsdt ', Rev: 2, Len: 12633
+369:617  0:000    9. 7C7E0808: 'SSDT', 'PegSsdt', Rev: 2, Len: 10419
+369:617  0:000    10. 7C7E30C0: 'HPET', 'KBL', Rev: 1, Len: 56
+369:617  0:000    11. 7C7E30F8: 'SSDT', 'xh_rvp11', Rev: 2, Len: 2436
+369:617  0:000    12. 7C7E3A80: 'UEFI', 'EDK2    ', Rev: 1, Len: 66
+369:617  0:000    13. 7C7E3AC8: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3806
+369:617  0:000    14. 7C7E49A8: 'LPIT', 'KBL', Rev: 1, Len: 148
+369:617  0:000    15. 7C7E4A40: 'WSMT', 'KBL', Rev: 1, Len: 40
+369:617  0:000    16. 7C7E4A68: 'SSDT', 'sensrhub', Rev: 2, Len: 671
+369:617  0:000    17. 7C7E4D08: 'DBGP', '', Rev: 1, Len: 52
+369:617  0:000    18. 7C7E4D40: 'DBG2', '', Rev: 0, Len: 84
+369:617  0:000    19. 7C7E4D98: 'SSDT', 'SgPeg', Rev: 2, Len: 174
+369:617  0:000    20. 7C7E4E48: 'DMAR', 'KBL ', Rev: 1, Len: 168
+369:617  0:000    21. 7C7E4EF0: 'TPM2', 'Tpm2Tabl', Rev: 3, Len: 52
+369:617  0:000    22. 7C7E4F28: 'BGRT', 'TONGFANG', Rev: 1, Len: 56
+369:617  0:000    23. 7C7E4F60: 'SSDT', 'OptTabl', Rev: 1, Len: 7486

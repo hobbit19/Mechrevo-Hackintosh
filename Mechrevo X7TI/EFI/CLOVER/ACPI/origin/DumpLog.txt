@@ -1,0 +1,112 @@
+38:161  2:262  Found UEFI Acpi 2.0 RSDP at 7A8B9000
+38:161  0:000  Saving ACPI tables from RSDP 7A8B9000 to EFI\CLOVER\ACPI\origin ...
+38:161  0:000   7A8B9000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+38:161  0:000    (Xsdt: 7A8B90A8, Rsdt: 7A8B9028)
+38:161  0:000    7A8B90A8: 'XSDT', 'TONGFANG', Rev: 1, Len: 204
+38:161  0:000    7A8B9028: 'RSDT', 'TONGFANG', Rev: 1, Len: 120
+38:161  0:000    Tables in Xsdt: 21
+38:161  0:000    0. 7A8D8D48: 'FACP', 'TONGFANG', Rev: 5, Len: 268
+38:161  0:000        (Dsdt: 7A8B9200, Facs: 7AE8EF80, XDsdt: 7A8B9200, XFacs: 0)
+38:161  0:000        7A8B9200: 'DSDT', 'TONGFANG', Rev: 2, Len: 129859
+38:164  0:002        7AE8EF80: 'FACS', Ver: 2, Len: 64
+38:164  0:000    1. 7A8D8E58: 'APIC', 'TONGFANG', Rev: 3, Len: 188
+38:164  0:000    2. 7A8D8F18: 'FPDT', 'TONGFANG', Rev: 1, Len: 68
+38:164  0:000    3. 7A8D8F60: 'FIDT', 'TONGFANG', Rev: 1, Len: 156
+38:164  0:000    4. 7A8D9000: 'MCFG', 'TONGFANG', Rev: 1, Len: 60
+38:164  0:000    5. 7A8D9040: 'HPET', 'TONGFANG', Rev: 1, Len: 56
+38:164  0:000    6. 7A8D9078: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+38:164  0:000    7. 7A8D9390: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 1355
+38:164  0:000    8. 7A8D98E0: 'DBGP', '', Rev: 1, Len: 52
+38:164  0:000    9. 7A8D9918: 'DBG2', '', Rev: 0, Len: 84
+38:164  0:000    10. 7A8D9970: 'SSDT', 'xh_rvp11', Rev: 2, Len: 1628
+38:164  0:000    11. 7A8D9FD0: 'MSDM', 'TONGFANG', Rev: 3, Len: 85
+38:164  0:000    12. 7A8DA028: 'SLIC', 'TONGFANG', Rev: 1, Len: 374
+38:164  0:000    13. 7A8DA1A0: 'SSDT', 'SaSsdt', Rev: 2, Len: 22233
+38:164  0:000    14. 7A8DF880: 'UEFI', '', Rev: 1, Len: 66
+38:164  0:000    15. 7A8DF8C8: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3699
+38:164  0:000    16. 7A8E0740: 'BGRT', 'TONGFANG', Rev: 1, Len: 56
+38:164  0:000    17. 7A8E0778: 'SSDT', 'SgPeg', Rev: 2, Len: 159
+38:164  0:000    18. 7A8E0818: 'DMAR', 'SKL', Rev: 1, Len: 168
+38:164  0:000    19. 7A8E08C0: 'TPM2', 'Tpm2Tabl', Rev: 3, Len: 52
+38:164  0:000    20. 7A8E08F8: 'SSDT', 'OptTabl', Rev: 1, Len: 6613
+38:164  0:000    Tables in Rsdt: 21
+38:164  0:000    0. 7A8B9178: 'FACP', 'TONGFANG', Rev: 2, Len: 132
+38:164  0:000        (Dsdt: 7A8B9200, Facs: 7AE8EF40)
+38:164  0:000        7A8B9200: 'DSDT', 'TONGFANG', Rev: 2, Len: 129859
+38:166  0:002        7AE8EF40: 'FACS', Ver: 0, Len: 64
+38:166  0:000    1. 7A8D8E58: 'APIC', 'TONGFANG', Rev: 3, Len: 188
+38:166  0:000    2. 7A8D8F18: 'FPDT', 'TONGFANG', Rev: 1, Len: 68
+38:166  0:000    3. 7A8D8F60: 'FIDT', 'TONGFANG', Rev: 1, Len: 156
+38:166  0:000    4. 7A8D9000: 'MCFG', 'TONGFANG', Rev: 1, Len: 60
+38:166  0:000    5. 7A8D9040: 'HPET', 'TONGFANG', Rev: 1, Len: 56
+38:166  0:000    6. 7A8D9078: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+38:166  0:000    7. 7A8D9390: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 1355
+38:166  0:000    8. 7A8D98E0: 'DBGP', '', Rev: 1, Len: 52
+38:166  0:000    9. 7A8D9918: 'DBG2', '', Rev: 0, Len: 84
+38:166  0:000    10. 7A8D9970: 'SSDT', 'xh_rvp11', Rev: 2, Len: 1628
+38:166  0:000    11. 7A8D9FD0: 'MSDM', 'TONGFANG', Rev: 3, Len: 85
+38:166  0:000    12. 7A8DA028: 'SLIC', 'TONGFANG', Rev: 1, Len: 374
+38:166  0:000    13. 7A8DA1A0: 'SSDT', 'SaSsdt', Rev: 2, Len: 22233
+38:166  0:000    14. 7A8DF880: 'UEFI', '', Rev: 1, Len: 66
+38:166  0:000    15. 7A8DF8C8: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3699
+38:166  0:000    16. 7A8E0740: 'BGRT', 'TONGFANG', Rev: 1, Len: 56
+38:166  0:000    17. 7A8E0778: 'SSDT', 'SgPeg', Rev: 2, Len: 159
+38:166  0:000    18. 7A8E0818: 'DMAR', 'SKL', Rev: 1, Len: 168
+38:166  0:000    19. 7A8E08C0: 'TPM2', 'Tpm2Tabl', Rev: 3, Len: 52
+38:166  0:000    20. 7A8E08F8: 'SSDT', 'OptTabl', Rev: 1, Len: 6613
+38:166  0:000  Found UEFI Acpi 1.0 RSDP at 7A8B9000
+38:166  0:000  Printing ACPI tables from RSDP 7A8B9000 ...
+38:166  0:000   7A8B9000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+38:166  0:000    (Xsdt: 7A8B90A8, Rsdt: 7A8B9028)
+38:166  0:000    7A8B90A8: 'XSDT', 'TONGFANG', Rev: 1, Len: 204
+38:166  0:000    7A8B9028: 'RSDT', 'TONGFANG', Rev: 1, Len: 120
+38:166  0:000    Tables in Xsdt: 21
+38:166  0:000    0. 7A8D8D48: 'FACP', 'TONGFANG', Rev: 5, Len: 268
+38:166  0:000        (Dsdt: 7A8B9200, Facs: 7AE8EF80, XDsdt: 7A8B9200, XFacs: 0)
+38:166  0:000        7A8B9200: 'DSDT', 'TONGFANG', Rev: 2, Len: 129859
+38:168  0:002        7AE8EF80: 'FACS', Ver: 2, Len: 64
+38:168  0:000    1. 7A8D8E58: 'APIC', 'TONGFANG', Rev: 3, Len: 188
+38:168  0:000    2. 7A8D8F18: 'FPDT', 'TONGFANG', Rev: 1, Len: 68
+38:168  0:000    3. 7A8D8F60: 'FIDT', 'TONGFANG', Rev: 1, Len: 156
+38:168  0:000    4. 7A8D9000: 'MCFG', 'TONGFANG', Rev: 1, Len: 60
+38:168  0:000    5. 7A8D9040: 'HPET', 'TONGFANG', Rev: 1, Len: 56
+38:168  0:000    6. 7A8D9078: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+38:168  0:000    7. 7A8D9390: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 1355
+38:168  0:000    8. 7A8D98E0: 'DBGP', '', Rev: 1, Len: 52
+38:168  0:000    9. 7A8D9918: 'DBG2', '', Rev: 0, Len: 84
+38:168  0:000    10. 7A8D9970: 'SSDT', 'xh_rvp11', Rev: 2, Len: 1628
+38:168  0:000    11. 7A8D9FD0: 'MSDM', 'TONGFANG', Rev: 3, Len: 85
+38:168  0:000    12. 7A8DA028: 'SLIC', 'TONGFANG', Rev: 1, Len: 374
+38:168  0:000    13. 7A8DA1A0: 'SSDT', 'SaSsdt', Rev: 2, Len: 22233
+38:168  0:000    14. 7A8DF880: 'UEFI', '', Rev: 1, Len: 66
+38:168  0:000    15. 7A8DF8C8: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3699
+38:168  0:000    16. 7A8E0740: 'BGRT', 'TONGFANG', Rev: 1, Len: 56
+38:168  0:000    17. 7A8E0778: 'SSDT', 'SgPeg', Rev: 2, Len: 159
+38:168  0:000    18. 7A8E0818: 'DMAR', 'SKL', Rev: 1, Len: 168
+38:168  0:000    19. 7A8E08C0: 'TPM2', 'Tpm2Tabl', Rev: 3, Len: 52
+38:168  0:000    20. 7A8E08F8: 'SSDT', 'OptTabl', Rev: 1, Len: 6613
+38:168  0:000    Tables in Rsdt: 21
+38:168  0:000    0. 7A8B9178: 'FACP', 'TONGFANG', Rev: 2, Len: 132
+38:168  0:000        (Dsdt: 7A8B9200, Facs: 7AE8EF40)
+38:168  0:000        7A8B9200: 'DSDT', 'TONGFANG', Rev: 2, Len: 129859
+38:171  0:002        7AE8EF40: 'FACS', Ver: 0, Len: 64
+38:171  0:000    1. 7A8D8E58: 'APIC', 'TONGFANG', Rev: 3, Len: 188
+38:171  0:000    2. 7A8D8F18: 'FPDT', 'TONGFANG', Rev: 1, Len: 68
+38:171  0:000    3. 7A8D8F60: 'FIDT', 'TONGFANG', Rev: 1, Len: 156
+38:171  0:000    4. 7A8D9000: 'MCFG', 'TONGFANG', Rev: 1, Len: 60
+38:171  0:000    5. 7A8D9040: 'HPET', 'TONGFANG', Rev: 1, Len: 56
+38:171  0:000    6. 7A8D9078: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+38:171  0:000    7. 7A8D9390: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 1355
+38:171  0:000    8. 7A8D98E0: 'DBGP', '', Rev: 1, Len: 52
+38:171  0:000    9. 7A8D9918: 'DBG2', '', Rev: 0, Len: 84
+38:171  0:000    10. 7A8D9970: 'SSDT', 'xh_rvp11', Rev: 2, Len: 1628
+38:171  0:000    11. 7A8D9FD0: 'MSDM', 'TONGFANG', Rev: 3, Len: 85
+38:171  0:000    12. 7A8DA028: 'SLIC', 'TONGFANG', Rev: 1, Len: 374
+38:171  0:000    13. 7A8DA1A0: 'SSDT', 'SaSsdt', Rev: 2, Len: 22233
+38:171  0:000    14. 7A8DF880: 'UEFI', '', Rev: 1, Len: 66
+38:171  0:000    15. 7A8DF8C8: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3699
+38:171  0:000    16. 7A8E0740: 'BGRT', 'TONGFANG', Rev: 1, Len: 56
+38:171  0:000    17. 7A8E0778: 'SSDT', 'SgPeg', Rev: 2, Len: 159
+38:171  0:000    18. 7A8E0818: 'DMAR', 'SKL', Rev: 1, Len: 168
+38:171  0:000    19. 7A8E08C0: 'TPM2', 'Tpm2Tabl', Rev: 3, Len: 52
+38:171  0:000    20. 7A8E08F8: 'SSDT', 'OptTabl', Rev: 1, Len: 6613
